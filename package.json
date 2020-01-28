@@ -1,0 +1,13 @@
+{
+  "name": "dbowden713.github.io",
+  "description": "Web portfolio for GitHub Pages",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "Daniel Bowden",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
