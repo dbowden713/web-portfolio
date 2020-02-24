@@ -1,0 +1,53 @@
+$primary-color-light: #fff;
+$primary-color-dark: #303848;
+
+$accent-color: rgb(221, 152, 87);
+
+body {
+    background: linear-gradient(90deg, $primary-color-light 30%, $primary-color-dark 20%);
+}
+
+#home {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+    #nameBox {
+        border: $accent-color 4px solid;
+        color: $primary-color-dark;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        background-color: $primary-color-light;
+        padding: 20px;
+        position: relative;
+    }
+
+    .navLinks {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        list-style: none;
+        text-align: right;
+        padding: 30px 0px;
+        top: 30px;
+    
+        .navLink {
+            margin: 15px 0px;
+    
+            a {
+                color: $primary-color-light;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }
+    
+            a:hover {
+                color: $accent-color;
+            }
+        }
+    }
+}

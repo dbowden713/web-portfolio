@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './home.component';
 
 export default class App extends React.Component {
     constructor() {
@@ -9,7 +10,7 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <div>Web Portfolio</div>
+            <Home />
         );
     }
 }

@@ -9,6 +9,12 @@ module.exports =  merge(webpackCommon, {
         filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
     },
+    devServer: {
+        overlay: true,
+        host: "0.0.0.0",
+        port: 8080,
+        openPage: "http://localhost:8080"
+    },
     plugins: [
         new HtmlWebpackPlugin({template: "./src/template.html"})
     ],
