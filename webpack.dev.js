@@ -16,7 +16,10 @@ module.exports =  merge(webpackCommon, {
         openPage: "http://localhost:8080"
     },
     plugins: [
-        new HtmlWebpackPlugin({template: "./src/template.html"})
+        new HtmlWebpackPlugin({
+            template: "./src/template.html",
+            favicon: "./src/assets/favicon.png"
+        })
     ],
     module: {
         rules: [
