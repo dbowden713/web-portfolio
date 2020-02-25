@@ -1,0 +1,28 @@
+$primary-color-light: #fff;
+$primary-color-dark: #303848;
+
+$accent-color: rgb(221, 152, 87);
+
+.projectCard {
+    border: 1px solid $primary-color-dark;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    border-radius: 4px;
+
+    .languages {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+
+        .languagePill {
+            background-color: $primary-color-dark;
+            color: $primary-color-light;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 3px 5px;
+            margin: 2px;
+            border-radius: 4px;
+        }
+    }
+}

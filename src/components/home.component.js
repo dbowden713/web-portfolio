@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.component.scss';
+import './home.style.scss';
 
 const nameBox = <span id="nameBox">Timothy Daniel Bowden</span>;
 const navLinks = (

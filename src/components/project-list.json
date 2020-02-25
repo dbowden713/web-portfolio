@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Test Card",
+        "description": "This is a test card.",
+        "image": "code.png",
+        "languages": ["React", "Sass", "Webpack"]
+    }
+]
