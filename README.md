@@ -20,5 +20,7 @@ Landing page with a navigation menu to the other pages
 A list of projects I've built or worked on. Each project is represented by a custom designed and coded card with a short project description. Each card also contains links to project pages and github repos. Framework/language flags are at the bottom of each card for quick reference.
 ## Resume ##
 This page contains all the information on my resume (except private information). Also has links to download a personal copy (.docx and .pdf) for future use.
+## GitHub ##
+Most pages also link to my GitHub profile.
 ### Authors ###
 [Timothy Daniel Bowden](https://github.com/dbowden713)
