@@ -1,8 +1,12 @@
 [
     {
         "name": "Test Card",
-        "description": "This is a test card.",
+        "description": "This is a test card. This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.",
         "image": "code.png",
-        "languages": ["React", "Sass", "Webpack"]
+        "languages": ["React", "Sass", "Webpack"],
+        "links": {
+            "project": "https://google.com",
+            "github": "https://github.com"
+        }
     }
 ]

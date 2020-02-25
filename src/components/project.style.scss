@@ -10,9 +10,76 @@ $accent-color: rgb(221, 152, 87);
     position: relative;
     border-radius: 4px;
 
+    .projectCardImage {
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .projectCardName {
+        margin: 5px 0 0 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .projectCardDescription {
+        margin: 5px;
+        bottom: 15px;
+        padding: 0 5px;
+        padding-bottom: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        max-height: 80px;
+        overflow: hidden;
+    }
+
+    .projectLinkButtons {
+        position: absolute;
+        left: 5px;
+        bottom: 10px;            
+        background-color: $primary-color-light;
+        color: $accent-color;
+
+        .leftLink {
+            border-radius: 4px 0 0 4px;
+            border: 1px solid $primary-color-dark;
+            padding: 2px;
+
+            &:hover {
+                background-color: $primary-color-dark;
+
+                a {
+                    color: $primary-color-light;
+                }
+            }
+        }
+
+        .rightLink {
+            border-radius: 0 4px 4px 0;
+            border: 1px solid $primary-color-dark;
+            padding: 2px;
+            margin-left: -1px;
+
+            &:hover {
+                background-color: $primary-color-dark;
+
+                a {
+                    color: $primary-color-light;
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: $primary-color-dark;
+            font-size: 12px;
+        }
+    }
+
     .languages {
         position: absolute;
-        bottom: 5px;
+        bottom: 10px;
         right: 5px;
 
         .languagePill {

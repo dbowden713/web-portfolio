@@ -17,6 +17,7 @@ export default class App extends React.Component {
                     description={project.description}
                     image={project.image}
                     languages={project.languages}
+                    links={project.links}
                     key={index}
                 />
             );
