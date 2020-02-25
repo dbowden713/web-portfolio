@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './project.component';
+import Home from './home.component';
 import projectList from './project-list';
 
 export default class App extends React.Component {
@@ -10,7 +11,12 @@ export default class App extends React.Component {
     }
 
     render() {
-        return this.state.projectList.map((project, index) => {
+        return <Home />
+    }
+}
+
+/*
+return this.state.projectList.map((project, index) => {
             return (
                 <Project 
                     name={project.name}
@@ -22,5 +28,4 @@ export default class App extends React.Component {
                 />
             );
         })
-    }
-}
+*/

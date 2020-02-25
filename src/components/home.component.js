@@ -18,9 +18,13 @@ export default class Home extends React.Component {
     }
 
     render() {
-        return (<div id="home">
-            {nameBox}
-            {navLinks}
-        </div>);
+        return (
+            <div id="home">
+                <div className="content">
+                    {nameBox}
+                    {navLinks}
+                </div>
+            </div>
+        );
     }
 }
