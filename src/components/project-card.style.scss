@@ -1,0 +1,99 @@
+$primary-color-light: #fff;
+$primary-color-dark: #303848;
+
+$accent-color: rgb(221, 152, 87);
+
+.projectCard {
+	border: 1px solid $primary-color-dark;
+	width: 250px;
+	height: 300px;
+	position: relative;
+	border-radius: 4px;
+	margin: 10px;
+
+	.projectCardImage {
+		overflow: hidden;
+		border-bottom: 1px solid $primary-color-dark;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	.projectCardName {
+		margin: 5px 0 0 5px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.projectCardDescription {
+		margin: 0;
+		padding: 0 5px 5px 5px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		max-height: 90px;
+		overflow: hidden;
+	}
+
+	.projectLinkButtons {
+		position: absolute;
+		left: 5px;
+		bottom: 5px;
+		background-color: $primary-color-light;
+		color: $accent-color;
+
+		.leftLink {
+			border-radius: 4px 0 0 4px;
+			border: 1px solid $primary-color-dark;
+			padding: 0 3px;
+
+			&:hover {
+				background-color: $primary-color-dark;
+
+				a {
+					color: $primary-color-light;
+				}
+			}
+		}
+
+		.rightLink {
+			border-radius: 0 4px 4px 0;
+			border: 1px solid $primary-color-dark;
+			margin-left: -1px;
+			padding: 0 3px;
+
+			&:hover {
+				background-color: $primary-color-dark;
+
+				a {
+					color: $primary-color-light;
+				}
+			}
+		}
+
+		a {
+			text-decoration: none;
+			font-family: Arial, Helvetica, sans-serif;
+			color: $primary-color-dark;
+			font-size: 12px;
+		}
+	}
+
+	.languages {
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+
+		.languagePill {
+			background-color: $primary-color-dark;
+			color: $primary-color-light;
+			font-size: 10px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 3px 5px;
+			margin: 2px;
+			border-radius: 4px;
+		}
+	}
+}

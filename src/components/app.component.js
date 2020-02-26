@@ -1,31 +1,29 @@
-import React from 'react';
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
-import Project from './project.component';
-import ProjectList from './projectList.component';
-import Home from './home.component';
-import projectList from './project-list';
+import React from "react";
+import "bootstrap";
+import "./app.style.scss";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import ProjectList from "./project-list.component";
+import Resume from "./resume.component";
+import Home from "./home.component";
 
 export default class App extends React.Component {
-    constructor() {
-        super();
+	constructor() {
+		super();
 
-        this.state= {projectList: projectList};
-    }
+		this.state = {};
+	}
 
-    render() {
-        return (
-            <Router>
-                <Switch>
-                    <Route path="/projects">
-                        <ProjectList />    
-                    </Route> 
-                    <Route path="/">
-                        <Home />    
-                    </Route>   
-                </Switch> 
-            </Router>
-        );
-    }
+	render() {
+		return (
+			<Router>
+				<Switch>
+					<Route exact path="/" component={ProjectList} />
+					<Route path="/projects" component={ProjectList} />
+					<Route path="/resume" component={Resume} />
+				</Switch>
+			</Router>
+		);
+	}
 }
 
 /*

@@ -21,6 +21,15 @@ $accent-color: rgb(221, 152, 87);
         text-align: center;
         width: 50%;
         background-color: $primary-color-light;
+
+        a {
+            text-decoration: none;
+            color: $primary-color-dark;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
     }
 
     .menuItems {
@@ -40,8 +49,13 @@ $accent-color: rgb(221, 152, 87);
             font-size: 20px;
             text-transform: uppercase;
 
-            &:hover {
-                color: $accent-color;
+            a {
+                text-decoration: none;
+                color: $primary-color-dark;
+                
+                &:hover {
+                    color: $accent-color;
+                }
             }
         }
     }

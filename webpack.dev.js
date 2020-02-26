@@ -25,7 +25,18 @@ module.exports =  merge(webpackCommon, {
         rules: [
             {
                 test: /\.s[ac]ss$/,
-                use: ["style-loader", "css-loader", "sass-loader"]
+                use: [
+                    "style-loader", 
+                    "css-loader",
+                    {
+                    loader: 'postcss-loader',
+                    options: {
+                        plugins: function() {
+                            return [ require('autoprefixer') ];
+                        }
+                    }
+                    } ,
+                    "sass-loader"]
             },
             {
                 test: /\.css$/,

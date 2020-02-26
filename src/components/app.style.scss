@@ -1,0 +1,21 @@
+$primary-color-light: #6c757d;
+$primary-color-dark: #303848;
+
+$accent-color: rgb(235, 181, 130);
+
+$theme-colors: (
+	"bg-dark": $primary-color-dark,
+	"dark": $primary-color-dark
+);
+
+.nav-link {
+	text-decoration: none;
+	color: $primary-color-light;
+
+	&:hover {
+		color: $accent-color !important;
+		text-decoration: none;
+	}
+}
+
+@import "~bootstrap/scss/bootstrap";

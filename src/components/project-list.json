@@ -1,12 +1,62 @@
 [
-    {
-        "name": "Test Card",
-        "description": "This is a test card. This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.This is a test card.",
-        "image": "code.png",
-        "languages": ["React", "Sass", "Webpack"],
-        "links": {
-            "project": "https://google.com",
-            "github": "https://github.com"
-        }
-    }
+	{
+		"name": "Web Portfolio",
+		"description": "This portfolio website! View my project pages, resume, and code repositories from one central location.",
+		"image": "web-portfolio.png",
+		"languages": ["React", "Sass", "Webpack"],
+		"links": {
+			"project": "https://dbowden713.github.io",
+			"github": "https://github.com/dbowden713/web-portfolio"
+		}
+	},
+	{
+		"name": "MVP Timer",
+		"description": "A timer built to track rare enemies in the game Ragnarok Online. Includes searching and marking last spawn.",
+		"image": "mvp-timer.png",
+		"languages": ["React", "Electron", "PouchDB"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/mvp-timer"
+		}
+	},
+	{
+		"name": "ARK Discord Bot",
+		"description": "Discord bot that starts, stops, and updates server instances for ARK: Survival Evolved.",
+		"image": "ark-discord-bot.png",
+		"languages": ["NodeJS", "DiscordJS", "APIs"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/ark-discord-bot"
+		}
+	},
+	{
+		"name": "DCC Trusted",
+		"description": "Plugin for the Hexchat IRC Client. Maintains a trusted list of clients to allow file transfers from.",
+		"image": "dcc-trusted.png",
+		"languages": ["Python", "Hooks", "IRC"],
+		"links": {
+			"project": "https://dbowden713.github.io",
+			"github": "https://github.com/dbowden713/dcc-trusted"
+		}
+	},
+	{
+		"name": "Webpack React Template",
+		"description": "Web development template with react, webpack, and sass. Supports HMR, dev/prod mode, and minifying code.",
+		"image": "webpack-react-template.png",
+		"languages": ["Webpack", "React", "Sass"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/webpack-react-template"
+		}
+	},
+	{
+		"name": "RO Item Manager",
+		"description": "Console-based item manager for Ragnarok Online. Easily add flags for quest, cooking, and upgrade ingredients to item description files.",
+		"image": "ro-item-manager.png",
+		"languages": ["Python"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/ro-item-manager"
+		}
+	}
 ]

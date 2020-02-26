@@ -6,7 +6,7 @@ const nameBox = <span id="nameBox">Timothy Daniel Bowden</span>;
 const navLinks = (
         <ul className="navLinks">
             <li className="navLink"><Link to="/projects">Projects</Link></li>
-            <li className="navLink"><Link to="/projects">Resume</Link></li>
+            <li className="navLink"><Link to="/resume">Resume</Link></li>
             <li className="navLink"><a href="https://github.com/dbowden713">Github</a></li>
         </ul>
 );
