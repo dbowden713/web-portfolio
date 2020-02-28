@@ -3,7 +3,7 @@
 		"name": "Web Portfolio",
 		"description": "This portfolio website! View my project pages, resume, and code repositories from one central location.",
 		"image": "web-portfolio.png",
-		"languages": ["React", "Sass", "Webpack"],
+		"languages": ["React", "Sass", "Webpack", "Bootstrap"],
 		"links": {
 			"project": "https://dbowden713.github.io",
 			"github": "https://github.com/dbowden713/web-portfolio"
@@ -23,7 +23,7 @@
 		"name": "ARK Discord Bot",
 		"description": "Discord bot that starts, stops, and updates server instances for ARK: Survival Evolved.",
 		"image": "ark-discord-bot.png",
-		"languages": ["NodeJS", "DiscordJS", "APIs"],
+		"languages": ["APIs", "NodeJS", "DiscordJS"],
 		"links": {
 			"project": "",
 			"github": "https://github.com/dbowden713/ark-discord-bot"

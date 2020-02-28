@@ -4,96 +4,97 @@ $primary-color-dark: #303848;
 $accent-color: rgb(221, 152, 87);
 
 .projectCard {
-	border: 1px solid $primary-color-dark;
+	border: 1px solid lighten($primary-color-dark, 50%);
 	width: 250px;
-	height: 300px;
+	height: 350px;
 	position: relative;
 	border-radius: 4px;
 	margin: 10px;
 
+	&:hover {
+		border-color: $primary-color-dark;
+	}
+
 	.projectCardImage {
 		overflow: hidden;
-		border-bottom: 1px solid $primary-color-dark;
+		border-bottom: 1px solid lighten($primary-color-dark, 50%);
 
 		img {
 			display: block;
 			margin: 0 auto;
+			border-radius: 4px 4px 0 0;
 		}
 	}
 
 	.projectCardName {
-		margin: 5px 0 0 5px;
+		margin: 10px 0 0 10px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16px;
 		font-weight: bold;
 	}
 
 	.projectCardDescription {
-		margin: 0;
-		padding: 0 5px 5px 5px;
+		margin: 0 5px;
+		padding: 5px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 14px;
 		max-height: 90px;
 		overflow: hidden;
+		letter-spacing: 1px;
 	}
 
 	.projectLinkButtons {
-		position: absolute;
-		left: 5px;
-		bottom: 5px;
 		background-color: $primary-color-light;
 		color: $accent-color;
-
-		.leftLink {
-			border-radius: 4px 0 0 4px;
-			border: 1px solid $primary-color-dark;
-			padding: 0 3px;
-
-			&:hover {
-				background-color: $primary-color-dark;
-
-				a {
-					color: $primary-color-light;
-				}
-			}
-		}
-
-		.rightLink {
-			border-radius: 0 4px 4px 0;
-			border: 1px solid $primary-color-dark;
-			margin-left: -1px;
-			padding: 0 3px;
-
-			&:hover {
-				background-color: $primary-color-dark;
-
-				a {
-					color: $primary-color-light;
-				}
-			}
-		}
+		padding: 10px;
+		position: absolute;
+		bottom: 0;
+		border-radius: 4px;
 
 		a {
 			text-decoration: none;
 			font-family: Arial, Helvetica, sans-serif;
 			color: $primary-color-dark;
 			font-size: 12px;
+			border: 1px solid $primary-color-dark;
+			padding: 2px 4px;
+
+			&:hover {
+				background-color: $primary-color-dark;
+				color: $primary-color-light;
+			}
+		}
+
+		.leftLink {
+			border-radius: 4px 0 0 4px;
+		}
+
+		.rightLink {
+			border-radius: 0 4px 4px 0;
+			margin-left: -1px;
 		}
 	}
 
 	.languages {
+		padding: 10px;
 		position: absolute;
-		bottom: 5px;
-		right: 5px;
+		bottom: 0;
+		right: 0;
+		max-width: 160px;
+		display: flex;
+		align-items: flex-end;
+		flex-wrap: wrap-reverse;
+		justify-content: right;
 
 		.languagePill {
 			background-color: $primary-color-dark;
 			color: $primary-color-light;
 			font-size: 10px;
 			font-family: Arial, Helvetica, sans-serif;
-			padding: 3px 5px;
+			padding: 0 5px;
 			margin: 2px;
 			border-radius: 4px;
+			float: right;
 		}
 	}
 }

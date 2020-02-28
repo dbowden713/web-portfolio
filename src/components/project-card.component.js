@@ -26,12 +26,12 @@ const LanguagePills = languages => {
 const ProjectLinkButtons = links => {
 	return (
 		<div className="projectLinkButtons">
-			<span className="leftLink">
-				<a href={links.project}>Project</a>
-			</span>
-			<span className="rightLink">
-				<a href={links.github}>Repo</a>
-			</span>
+			<a className="leftLink" href={links.project}>
+				Project
+			</a>
+			<a className="rightLink" href={links.github}>
+				Repo
+			</a>
 		</div>
 	);
 };
