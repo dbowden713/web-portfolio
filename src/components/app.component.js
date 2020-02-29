@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap";
 import "./app.style.scss";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Link, Switch, Route } from "react-router-dom";
 import ProjectList from "./project-list.component";
 import Resume from "./resume.component";
 import Home from "./home.component";
