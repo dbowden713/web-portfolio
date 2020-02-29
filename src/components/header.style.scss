@@ -1,62 +1,59 @@
-$primary-color-light: #fff;
-$primary-color-dark: #303848;
-
-$accent-color: rgb(221, 152, 87);
+@import "../main.scss";
 
 .header {
-    margin: -10px -10px 0 -10px;
+	margin: -10px -10px 0 -10px;
 
-    .ribbon {
-        height: 80px;
-        background-color: $primary-color-dark;
-    }
+	.ribbon {
+		height: 80px;
+		background-color: $primary-color-dark;
+	}
 
-    .nameBox {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        color: $primary-color-dark;
-        border: 4px solid $accent-color;
-        padding: 20px;
-        margin: -40px auto 0 auto;
-        text-align: center;
-        width: 50%;
-        background-color: $primary-color-light;
+	.nameBox {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		color: $primary-color-dark;
+		border: 4px solid $accent-color;
+		padding: 20px;
+		margin: -40px auto 0 auto;
+		text-align: center;
+		width: 50%;
+		background-color: $primary-color-light;
 
-        a {
-            text-decoration: none;
-            color: $primary-color-dark;
+		a {
+			text-decoration: none;
+			color: $primary-color-dark;
 
-            &:hover {
-                color: $accent-color;
-            }
-        }
-    }
+			&:hover {
+				color: $accent-color;
+			}
+		}
+	}
 
-    .menuItems {
-        list-style: none;
-        margin: 30px auto 0 auto;
-        padding: 0;
-        float: none;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
+	.menuItems {
+		list-style: none;
+		margin: 30px auto 0 auto;
+		padding: 0;
+		float: none;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
 
-        .menuItem {
-            display: inline;
-            padding: 20px;
-            color: $primary-color-dark;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            text-transform: uppercase;
+		.menuItem {
+			display: inline;
+			padding: 20px;
+			color: $primary-color-dark;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			text-transform: uppercase;
 
-            a {
-                text-decoration: none;
-                color: $primary-color-dark;
-                
-                &:hover {
-                    color: $accent-color;
-                }
-            }
-        }
-    }
+			a {
+				text-decoration: none;
+				color: $primary-color-dark;
+
+				&:hover {
+					color: $accent-color;
+				}
+			}
+		}
+	}
 }

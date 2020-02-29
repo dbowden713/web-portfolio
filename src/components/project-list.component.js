@@ -27,6 +27,16 @@ export default class ProjectList extends React.Component {
 		return (
 			<div>
 				<Header active="projects" />
+				<Container fluid style={{ padding: "0" }} className="heroBar">
+					<Jumbotron>
+						<Container>
+							<h1 className="display-3">My Work</h1>
+							<p className="lead">
+								A collection of my projects and code snippets.
+							</p>
+						</Container>
+					</Jumbotron>
+				</Container>
 				<Container>
 					<Row>
 						<Col>

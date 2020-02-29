@@ -1,7 +1,4 @@
-$primary-color-light: #6c757d;
-$primary-color-dark: #303848;
-
-$accent-color: rgb(235, 181, 130);
+@import "../main.scss";
 
 $theme-colors: (
 	"bg-dark": $primary-color-dark,

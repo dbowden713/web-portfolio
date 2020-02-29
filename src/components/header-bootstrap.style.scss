@@ -1,8 +1,8 @@
-$primary-color-light: #fff;
-$primary-color-dark: #303848;
-
-$accent-color: rgb(221, 152, 87);
+@import "../main.scss";
 
 .header {
-	margin-bottom: 20px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 10;
 }

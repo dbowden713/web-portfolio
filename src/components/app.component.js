@@ -17,7 +17,7 @@ export default class App extends React.Component {
 		return (
 			<Router>
 				<Switch>
-					<Route exact path="/" component={ProjectList} />
+					<Route exact path="/" component={Home} />
 					<Route path="/projects" component={ProjectList} />
 					<Route path="/resume" component={Resume} />
 				</Switch>

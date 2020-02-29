@@ -1,7 +1,4 @@
-$primary-color-light: #fff;
-$primary-color-dark: #303848;
-
-$accent-color: rgb(221, 152, 87);
+@import "../main.scss";
 
 .projectCard {
 	border: 1px solid lighten($primary-color-dark, 50%);

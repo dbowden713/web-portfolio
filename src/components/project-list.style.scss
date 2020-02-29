@@ -1,1 +1,22 @@
+@import "../main.scss";
 
+.jumbotron {
+	border-radius: 0;
+	color: $primary-color-light;
+	text-align: center;
+	background-image: url("../assets/hero-code.png");
+	background-size: cover;
+
+	h1 {
+		text-transform: uppercase;
+	}
+
+	p {
+		border-bottom: 1px solid #444;
+		padding-bottom: 20px;
+	}
+
+	.container hr {
+		background-color: darken($primary-color-light, 75%);
+	}
+}

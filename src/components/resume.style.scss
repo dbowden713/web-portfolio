@@ -1,0 +1,13 @@
+@import "../main.scss";
+
+.alert {
+	margin-top: 20px;
+}
+
+.btn {
+	background-color: $primary-color-dark;
+
+	&:hover {
+		color: lighten($accent-color, 10%);
+	}
+}
