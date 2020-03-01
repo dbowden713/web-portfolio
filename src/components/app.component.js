@@ -4,7 +4,7 @@ import "./app.style.scss";
 import { HashRouter as Router, Link, Switch, Route } from "react-router-dom";
 import ProjectList from "./project-list.component";
 import Resume from "./resume.component";
-import Home from "./home.component";
+import Home from "./home-bootstrap.component";
 
 export default class App extends React.Component {
 	constructor() {
