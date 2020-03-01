@@ -51,10 +51,18 @@ export default class ProjectList extends React.Component {
 							</Alert>
 						</Col>
 					</Row>
-					<Row>
+					<Row className="">
 						{this.state.projects.map((project, index) => {
 							return (
-								<Col xs="12" sm="6" lg="4" xl="3" key={index}>
+								<Col
+									xs={{ size: 10, offset: 1 }}
+									sm={{ size: 6, offset: 0 }}
+									md={{ size: 6, offset: 0 }}
+									lg="4"
+									xl="3"
+									key={index}
+									className="p-3"
+								>
 									<ProjectCard
 										name={project.name}
 										description={project.description}
@@ -62,7 +70,6 @@ export default class ProjectList extends React.Component {
 										languages={project.languages}
 										links={project.links}
 										key={index}
-										className="centerBlock"
 									/>
 								</Col>
 							);
