@@ -35,6 +35,10 @@ export default class Resume extends React.Component {
 							<Button size="lg">Download (.pdf)</Button>
 						</a>
 					</Row>
+
+					<Row>
+						<Col lg="1">Test</Col>
+					</Row>
 				</Container>
 			</div>
 		);

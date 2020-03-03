@@ -51,6 +51,11 @@ export default class ProjectList extends React.Component {
 							</Alert>
 						</Col>
 					</Row>
+					<Row>
+						<Col>
+							<h2 className="pb-3">Projects</h2>
+						</Col>
+					</Row>
 					<Row className="">
 						{this.state.projects.map((project, index) => {
 							return (

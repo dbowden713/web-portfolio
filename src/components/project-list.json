@@ -13,7 +13,7 @@
 		"name": "MVP Timer",
 		"description": "A timer built to track rare enemies in the game Ragnarok Online. Includes searching and marking last spawn.",
 		"image": "mvp-timer.png",
-		"languages": ["React", "Electron", "PouchDB"],
+		"languages": ["React", "Electron", "PouchDB", "Bootstrap"],
 		"links": {
 			"project": "",
 			"github": "https://github.com/dbowden713/mvp-timer"
@@ -57,6 +57,46 @@
 		"links": {
 			"project": "",
 			"github": "https://github.com/dbowden713/ro-item-manager"
+		}
+	},
+	{
+		"name": "Hypothetical OS",
+		"description": "Console-based CPU and RAM emulator. Schedule jobs using various priority and memory allocation algorithms.",
+		"image": "hos.png",
+		"languages": ["Java"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/old-projects/tree/master/Hypothetical%20OS"
+		}
+	},
+	{
+		"name": "Minesweeper",
+		"description": "Full-featured classic Minesweeper with three difficulties!",
+		"image": "minesweeper.png",
+		"languages": ["Java", "Swing"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/old-projects/tree/master/Minesweeper"
+		}
+	},
+	{
+		"name": "Connect Four",
+		"description": "Classic connect four implemented using Java Swing. Get four in a row vertically, horizontally, or diagonally!",
+		"image": "connect-four.png",
+		"languages": ["Java", "Swing"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/old-projects/tree/master/Connect%20Four"
+		}
+	},
+	{
+		"name": "Multicast Chat",
+		"description": "Practicing packet creation and management with Java! Send and receive messages via multicast.",
+		"image": "multicast-chat.png",
+		"languages": ["Java", "Swing"],
+		"links": {
+			"project": "",
+			"github": "https://github.com/dbowden713/old-projects/tree/master/Multicast%20Chat%20Client"
 		}
 	}
 ]
