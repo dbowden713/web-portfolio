@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col, Button, Alert } from "reactstrap";
 import Header from "./header-bootstrap.component";
 import "./resume.style.scss";
+import ResumeInfo from "./resume-info";
+import ResumeSection from "./resume-section.component";
 
 export default class Resume extends React.Component {
 	constructor() {
@@ -27,7 +29,7 @@ export default class Resume extends React.Component {
 							</Alert>
 						</Col>
 					</Row>
-					<Row className="justify-content-around">
+					<Row className="justify-content-around mb-4">
 						<a href="https://www.dropbox.com/s/fol9y4aw6830all/Resume_TDB_public.docx?dl=0">
 							<Button size="lg">Download (.docx)</Button>
 						</a>
@@ -35,10 +37,15 @@ export default class Resume extends React.Component {
 							<Button size="lg">Download (.pdf)</Button>
 						</a>
 					</Row>
-
-					<Row>
-						<Col lg="1">Test</Col>
-					</Row>
+					{ResumeInfo.map((section, index) => {
+						return (
+							<ResumeSection
+								header={section.header}
+								text={section.text}
+								key={index}
+							/>
+						);
+					})}
 				</Container>
 			</div>
 		);

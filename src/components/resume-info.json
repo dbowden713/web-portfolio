@@ -1,0 +1,55 @@
+[
+	{
+		"header": "Objective",
+		"text": [
+			"Currently seeking an IT-oriented position such as analysis, development, or technical support. An opportunity for self-improvement through continuing education or other means is highly desired."
+		]
+	},
+	{
+		"header": "Education",
+		"text": [
+			{
+				"left": "JACKSONVILLE STATE UNIVERSITY",
+				"right": "April 2013"
+			},
+			{
+				"left": "Bachelor of Science in Computer Science",
+				"right": "Magna Cum Laude"
+			},
+			"Minor: Mathematics",
+			"Concentration: Game Development",
+			{
+				"left": "Kappa Mu Epsilon",
+				"right": "2010-2013"
+			},
+			"National Mathematics Honor Society"
+		]
+	},
+	{
+		"header": "Experience",
+		"text": [
+			{
+				"left": "COMPUTER TECHNICIAN - SELF",
+				"right": "2014-"
+			},
+			"System Budgeting, Planning, and Building",
+			"Troubleshooting / Preventative Maintenance",
+			"Virus / Spyware / Malware Removal",
+			"Recommend / Install Upgrades"
+		]
+	},
+	{
+		"header": "Dev Skills",
+		"text": [
+			{ "left": "WEB DEVELOPMENT" },
+			"HTML5+XML, CSS3+Sass, JS/ES6+, React, NodeJS, PHP, Bootstrap, Webpack, jQuery, AJAX",
+
+			{ "left": "PROGRAMMING" },
+			"Java+JFX, Python, SQL, JSP, C++, COBOL, Electron",
+
+			{ "left": "OTHER" },
+			"Git, Subversion, Apache, OpenGL",
+			"VS Code, Adobe XD, npm+yarn, Windows, Mac, Linux, Office"
+		]
+	}
+]

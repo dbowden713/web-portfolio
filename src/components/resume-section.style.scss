@@ -1,0 +1,27 @@
+@import "../main.scss";
+
+.resumeHeader {
+	color: white;
+	background-color: $primary-color-dark;
+	text-align: center;
+	padding: 0.5em;
+	text-transform: uppercase;
+}
+
+.bar {
+	border-bottom: 3px solid $accent-color;
+	bottom: 1em;
+}
+
+.resumeText {
+	color: $primary-color-dark;
+	letter-spacing: 1px;
+	font-size: 16px;
+
+	.leftText {
+	}
+
+	.rightText {
+		font-style: italic;
+	}
+}
