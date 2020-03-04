@@ -15,7 +15,7 @@
 		"image": "mvp-timer.png",
 		"languages": ["React", "Electron", "PouchDB", "Bootstrap"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/mvp-timer/",
 			"github": "https://github.com/dbowden713/mvp-timer"
 		}
 	},
@@ -25,7 +25,7 @@
 		"image": "ark-discord-bot.png",
 		"languages": ["APIs", "NodeJS", "DiscordJS"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/ark-discord-bot/",
 			"github": "https://github.com/dbowden713/ark-discord-bot"
 		}
 	},
@@ -35,7 +35,7 @@
 		"image": "dcc-trusted.png",
 		"languages": ["Python", "Hooks", "IRC"],
 		"links": {
-			"project": "https://dbowden713.github.io",
+			"project": "https://dbowden713.github.io/dcc-trusted/",
 			"github": "https://github.com/dbowden713/dcc-trusted"
 		}
 	},
@@ -45,7 +45,7 @@
 		"image": "webpack-react-template.png",
 		"languages": ["Webpack", "React", "Sass"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/webpack-react-template/",
 			"github": "https://github.com/dbowden713/webpack-react-template"
 		}
 	},
@@ -55,7 +55,7 @@
 		"image": "ro-item-manager.png",
 		"languages": ["Python"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/ro-item-manager/",
 			"github": "https://github.com/dbowden713/ro-item-manager"
 		}
 	},
@@ -65,7 +65,7 @@
 		"image": "hos.png",
 		"languages": ["Java"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/old-projects/Hypothetical%20OS/",
 			"github": "https://github.com/dbowden713/old-projects/tree/master/Hypothetical%20OS"
 		}
 	},
@@ -75,7 +75,7 @@
 		"image": "minesweeper.png",
 		"languages": ["Java", "Swing"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/old-projects/Minesweeper/",
 			"github": "https://github.com/dbowden713/old-projects/tree/master/Minesweeper"
 		}
 	},
@@ -85,7 +85,7 @@
 		"image": "connect-four.png",
 		"languages": ["Java", "Swing"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/old-projects/Connect%20Four/",
 			"github": "https://github.com/dbowden713/old-projects/tree/master/Connect%20Four"
 		}
 	},
@@ -95,7 +95,7 @@
 		"image": "multicast-chat.png",
 		"languages": ["Java", "Swing"],
 		"links": {
-			"project": "",
+			"project": "https://dbowden713.github.io/old-projects/Multicast%20Chat/",
 			"github": "https://github.com/dbowden713/old-projects/tree/master/Multicast%20Chat%20Client"
 		}
 	}
